@@ -1,0 +1,44 @@
+flowchart TD
+    User([User / Customer]) --> UI["Streamlit Web UI (app.py)"]
+    
+    subgraph Frontend ["User Interface Layer"]
+        UI --> Nav{"Navigation Selection"}
+        Nav -->|Chatbot| ChatWindow["Interactive Chat Area"]
+        Nav -->|Evaluation| EvalPage["25-Question Benchmark Page"]
+        ChatWindow --> InputCheck["Input Validation & Formatting"]
+    end
+    
+    subgraph PrimaryNLP ["PRIMARY: Semantic FAQ Retrieval Engine"]
+        InputCheck --> Preproc["spaCy Normalization (en_core_web_sm)"]
+        Preproc --> Embedder["SentenceTransformer (all-MiniLM-L6-v2)"]
+        Embedder --> VectorQuery["Query Vector (384-d L2-Normalized)"]
+        
+        KB[("FAQ Knowledge Base (data/faqs.json)")] --> Precompute["Precomputed FAQ Vector Matrix"]
+        
+        VectorQuery --> SimCalc["Cosine Similarity Matrix Calculation"]
+        Precompute --> SimCalc
+        
+        SimCalc --> TopRank["Rank Top 3 Candidate FAQs"]
+        TopRank --> ConfEval{"Confidence Evaluation\n(Threshold = 0.55, Margin = 0.04)"}
+    end
+
+    subgraph BranchDecision ["Decision & Dispatch Layer"]
+        ConfEval -->|Score >= 0.55| FAQAnswer["Retrieve FAQ Answer"]
+        ConfEval -->|Score < 0.55| FallbackCheck{"Gemini Fallback Enabled?"}
+    end
+
+    subgraph OptionalAI ["OPTIONAL: Gemini LLM Fallback Engine"]
+        FallbackCheck -->|Yes & Key Configured| GeminiHandler["GeminiFallbackHandler (gemini_fallback.py)"]
+        EnvKey[("GEMINI_API_KEY (.env)")] --> GeminiHandler
+        GeminiHandler --> GeminiAPI["Google GenAI SDK (gemini-3.6-flash)"]
+        GeminiAPI --> AIAnswer["Constrained AI Fallback Response"]
+    end
+
+    FallbackCheck -->|No / Error| DefaultFallback["Default Fallback Message"]
+
+    FAQAnswer --> DisplayFAQ["Display Answer\n[Badge: 📚 FAQ-based response]"]
+    AIAnswer --> DisplayAI["Display Answer\n[Badge: ✨ AI-generated response]"]
+    DefaultFallback --> DisplayFAQ
+
+    DisplayFAQ --> ChatWindow
+    DisplayAI --> ChatWindow

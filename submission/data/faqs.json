@@ -1,0 +1,720 @@
+[
+  {
+    "id": 1,
+    "category": "Orders",
+    "question": "Where can I view my order history?",
+    "variations": [
+      "How do I check my past purchases?",
+      "Where are my previous orders stored?",
+      "Can I see my order list?"
+    ],
+    "answer": "You can view your complete order history by logging into your account and clicking 'My Orders' in your account dashboard."
+  },
+  {
+    "id": 2,
+    "category": "Orders",
+    "question": "Why did I receive my order in multiple shipments?",
+    "variations": [
+      "Why is my order coming in separate packages?",
+      "Part of my order is missing from the box",
+      "Received only some items from my purchase"
+    ],
+    "answer": "Items in multi-item orders may ship separately from different fulfillment centers depending on stock availability. Check your shipping confirmation email for individual package tracking numbers."
+  },
+  {
+    "id": 3,
+    "category": "Orders",
+    "question": "Can I place an order over the phone?",
+    "variations": [
+      "Can someone take my order by phone call?",
+      "Do you accept phone orders?",
+      "How do I order by calling customer service?"
+    ],
+    "answer": "To protect your personal and financial security, all orders must be placed directly through our secure online store."
+  },
+  {
+    "id": 4,
+    "category": "Order Cancellation",
+    "question": "How do I cancel my order?",
+    "variations": [
+      "I want to cancel my purchase",
+      "How to stop an order before it ships",
+      "Can I cancel an order I just placed?"
+    ],
+    "answer": "You can cancel an order within 30 minutes of placing it by visiting 'My Orders' and clicking 'Cancel Order'. If the order has already entered processing, it cannot be canceled but can be returned upon delivery."
+  },
+  {
+    "id": 5,
+    "category": "Order Cancellation",
+    "question": "Why was my order canceled automatically?",
+    "variations": [
+      "My order got canceled out of nowhere",
+      "System canceled my order email",
+      "Why did you cancel my item?"
+    ],
+    "answer": "Orders are automatically canceled if an item is out of stock or if payment verification fails. You will receive an email detailing the cancellation and an immediate refund."
+  },
+  {
+    "id": 6,
+    "category": "Order Cancellation",
+    "question": "Can I reinstate a canceled order?",
+    "variations": [
+      "How do I un-cancel my order?",
+      "Can I re-activate a canceled order?",
+      "Undo order cancellation"
+    ],
+    "answer": "Once an order is canceled, it cannot be reactivated. Please place a new order directly on our website for the items you wish to purchase."
+  },
+  {
+    "id": 7,
+    "category": "Order Modification",
+    "question": "Can I add or remove items from an order I placed?",
+    "variations": [
+      "How to change items in my order?",
+      "Can I add another product to my existing order?",
+      "Modify items in my order"
+    ],
+    "answer": "Once an order is submitted, items cannot be added or removed. You can cancel the order within 30 minutes and place a new one, or return unwanted items after delivery."
+  },
+  {
+    "id": 8,
+    "category": "Order Modification",
+    "question": "Can I change the size or color of an item after ordering?",
+    "variations": [
+      "I ordered the wrong size, can I change it?",
+      "Swap product color after checkout",
+      "Change item variant in order"
+    ],
+    "answer": "We cannot change product sizes or colors once an order is placed. Please cancel the order within 30 minutes under 'My Orders' and re-order the desired size or color."
+  },
+  {
+    "id": 9,
+    "category": "Order Modification",
+    "question": "Can I merge two separate orders together?",
+    "variations": [
+      "Combine my two orders into one shipment",
+      "Can you ship two of my orders in one package?",
+      "Merge shipping for orders"
+    ],
+    "answer": "Orders cannot be combined after checkout as fulfillment centers process each order independently to ensure fast shipping."
+  },
+  {
+    "id": 10,
+    "category": "Shipping",
+    "question": "What shipping methods do you offer?",
+    "variations": [
+      "What are your shipping options?",
+      "Do you offer express or standard shipping?",
+      "Shipping speed choices"
+    ],
+    "answer": "We offer Standard Domestic Shipping (3-5 business days), 2-Day Express Shipping, and Next-Day Air delivery options at checkout."
+  },
+  {
+    "id": 11,
+    "category": "Shipping",
+    "question": "How do I qualify for free shipping?",
+    "variations": [
+      "What is the free shipping minimum spend?",
+      "How much do I need to buy to get free delivery?",
+      "Is there free shipping available?"
+    ],
+    "answer": "We offer free standard shipping on all domestic orders over $50. The discount is applied automatically at checkout when your subtotal reaches $50."
+  },
+  {
+    "id": 12,
+    "category": "Shipping",
+    "question": "Do you ship internationally?",
+    "variations": [
+      "Do you deliver outside the United States?",
+      "Can you ship to Canada, UK, or Europe?",
+      "Worldwide shipping options"
+    ],
+    "answer": "Yes, we ship to over 50 countries worldwide. International shipping fees and estimated customs duties are calculated at checkout."
+  },
+  {
+    "id": 13,
+    "category": "Shipping",
+    "question": "Why is shipping delayed?",
+    "variations": [
+      "My package shipping is taking longer than expected",
+      "Why hasn't my order shipped yet?",
+      "Shipping delay notification"
+    ],
+    "answer": "Shipping delays can occur during peak holiday seasons, severe weather events, or high demand. You will receive an updated tracking link as soon as your package moves."
+  },
+  {
+    "id": 14,
+    "category": "Delivery",
+    "question": "When will my order arrive?",
+    "variations": [
+      "What is my expected delivery date?",
+      "How long before my package arrives?",
+      "How many days for delivery?"
+    ],
+    "answer": "Standard shipping orders arrive within 3 to 5 business days after dispatch. You can view the estimated delivery date on your tracking link."
+  },
+  {
+    "id": 15,
+    "category": "Delivery",
+    "question": "What should I do if my package shows delivered but I haven't received it?",
+    "variations": [
+      "Tracking says delivered but no package",
+      "Where is my delivered package?",
+      "Package missing after delivery status"
+    ],
+    "answer": "Please check around your porch/mailbox and ask neighbors. Couriers occasionally scan packages early. If it does not appear within 24 hours, contact customer support."
+  },
+  {
+    "id": 16,
+    "category": "Delivery",
+    "question": "Can I change the address after placing an order?",
+    "variations": [
+      "Can I change the address after placing an order?",
+      "I entered the wrong delivery address.",
+      "Can I change my delivery address?",
+      "Wrong shipping address entered",
+      "Update destination address for package"
+    ],
+    "answer": "Address updates can be requested within 30 minutes of placing an order under 'My Orders'. If the order has already shipped, please contact the courier directly using your tracking number."
+  },
+  {
+    "id": 17,
+    "category": "Delivery",
+    "question": "What happens if I miss my package delivery?",
+    "variations": [
+      "Courier attempted delivery while I was away",
+      "Missed delivery attempt what next?",
+      "Where does courier take missed packages?"
+    ],
+    "answer": "The courier will leave a notice card and attempt re-delivery on the next business day or hold the package at a local pickup point for up to 5 days."
+  },
+  {
+    "id": 18,
+    "category": "Order Tracking",
+    "question": "How can I track my order?",
+    "variations": [
+      "Where is my package?",
+      "Can I see where my order is?",
+      "I want to know the location of my parcel.",
+      "How do I know when my parcel will arrive?",
+      "Check tracking status"
+    ],
+    "answer": "You can track your order anytime by logging into your account under 'My Orders', or by clicking the tracking link in your shipping confirmation email."
+  },
+  {
+    "id": 19,
+    "category": "Order Tracking",
+    "question": "Why is my tracking link not updating?",
+    "variations": [
+      "Tracking status stuck",
+      "No updates on tracking number for 3 days",
+      "Why hasn't my package moved?"
+    ],
+    "answer": "Tracking information may take 24 to 48 hours to update after dispatch while the package is in transit between carrier sorting hubs."
+  },
+  {
+    "id": 20,
+    "category": "Order Tracking",
+    "question": "Where do I find my tracking number?",
+    "variations": [
+      "I didn't get a tracking number",
+      "How to get courier tracking code?",
+      "Find shipping tracking ID"
+    ],
+    "answer": "Your tracking number is included in your shipping confirmation email and listed under 'My Orders' in your account."
+  },
+  {
+    "id": 21,
+    "category": "Order Tracking",
+    "question": "Can I track my package without logging into an account?",
+    "variations": [
+      "Guest tracking order without account",
+      "Track order using email and order number",
+      "Look up order as guest"
+    ],
+    "answer": "Yes, you can track guest orders by visiting our Track Order page and entering your order number and email address."
+  },
+  {
+    "id": 22,
+    "category": "Returns",
+    "question": "What is your item return policy?",
+    "variations": [
+      "I don't want the product anymore.",
+      "How can I send this item back?",
+      "I need to return something I bought.",
+      "I bought something but I want to send it back",
+      "Can I return an item?",
+      "How many days do I have to return a product?"
+    ],
+    "answer": "We offer a 30-day return policy from the delivery date. Items must be unworn, unused, in original packaging, and accompanied by proof of purchase."
+  },
+  {
+    "id": 23,
+    "category": "Returns",
+    "question": "How do I print a return shipping label?",
+    "variations": [
+      "Where do I get a return label?",
+      "How to start a return process",
+      "Print return tag for shipment"
+    ],
+    "answer": "Visit our online Returns Portal, enter your order number and zip code, select the item to return, and download your prepaid shipping label."
+  },
+  {
+    "id": 24,
+    "category": "Returns",
+    "question": "Who pays for return shipping fees?",
+    "variations": [
+      "Is return shipping free?",
+      "Do I have to pay to return an item?",
+      "Cost of return shipping label"
+    ],
+    "answer": "Return shipping is 100% free if you select store credit or an exchange! For refunds to your original payment method, a $5 flat label fee is deducted."
+  },
+  {
+    "id": 25,
+    "category": "Returns",
+    "question": "Can I return an opened or used product?",
+    "variations": [
+      "Can I return something I already opened?",
+      "Used item return policy",
+      "Return unpacked clothes or electronics"
+    ],
+    "answer": "Opened products in like-new condition with original packaging are eligible for return within 30 days. Heavily worn or altered items cannot be accepted."
+  },
+  {
+    "id": 26,
+    "category": "Refunds",
+    "question": "How do I get my money back?",
+    "variations": [
+      "How can I get my money back?",
+      "I want a refund for my purchase",
+      "Request money back for return"
+    ],
+    "answer": "Once your return is delivered to our warehouse and inspected, your refund is automatically processed back to your original payment method."
+  },
+  {
+    "id": 27,
+    "category": "Refunds",
+    "question": "How long does a refund take to process?",
+    "variations": [
+      "When will my refund arrive?",
+      "How long does it take to get my money back?",
+      "When will my refund money show up?",
+      "How many days for refund credit?",
+      "Refund timeframe to bank account"
+    ],
+    "answer": "Refunds are issued within 3 to 5 business days of return receipt. Depending on your bank, it may take 2 to 7 additional business days to post to your statement."
+  },
+  {
+    "id": 28,
+    "category": "Refunds",
+    "question": "Where is my refund? It hasn't appeared on my statement.",
+    "variations": [
+      "My refund is missing",
+      "Why haven't I received my refund yet?",
+      "Refund credit card statement delayed"
+    ],
+    "answer": "If your refund notification email was sent over 10 business days ago and the credit hasn't appeared, please check with your financial institution or contact support."
+  },
+  {
+    "id": 29,
+    "category": "Refunds",
+    "question": "Can I get a refund on store credit or gift cards?",
+    "variations": [
+      "Refund gift card balance to cash",
+      "Can store credit be converted to money?",
+      "Gift card refund policy"
+    ],
+    "answer": "Refunds for orders paid with store credit or gift cards will be re-credited to your store credit balance and cannot be converted to cash."
+  },
+  {
+    "id": 30,
+    "category": "Payments",
+    "question": "What payment methods do you accept?",
+    "variations": [
+      "What payment options can I use?",
+      "Do you take PayPal, Apple Pay, or credit cards?",
+      "Accepted payment types"
+    ],
+    "answer": "We accept Visa, MasterCard, American Express, Discover, PayPal, Apple Pay, Google Pay, and Shop Pay."
+  },
+  {
+    "id": 31,
+    "category": "Payments",
+    "question": "Why was my payment declined at checkout?",
+    "variations": [
+      "My payment didn't work.",
+      "Why was my payment declined?",
+      "I couldn't complete the payment.",
+      "My payment failed",
+      "Card transaction declined",
+      "Payment not going through checkout"
+    ],
+    "answer": "Payment declines occur due to incorrect card numbers, billing zip code mismatches, insufficient funds, or bank fraud blocks. Double-check your details or try another card."
+  },
+  {
+    "id": 32,
+    "category": "Payments",
+    "question": "What should I do if I was charged twice for an order?",
+    "variations": [
+      "I was charged twice",
+      "Double pending charge on my card",
+      "Duplicate payment charged"
+    ],
+    "answer": "Duplicate pending charges are usually temporary bank pre-authorizations that drop off within 24-48 hours. If two actual charges post to your statement, contact support immediately."
+  },
+  {
+    "id": 33,
+    "category": "Payments",
+    "question": "When is my credit card charged for my purchase?",
+    "variations": [
+      "Do you charge my card when ordering or shipping?",
+      "When does payment leave my bank account?",
+      "Timing of credit card charge"
+    ],
+    "answer": "Your credit card is authorized at checkout and fully charged once your order is confirmed for processing."
+  },
+  {
+    "id": 34,
+    "category": "Coupons and Discounts",
+    "question": "How do I apply a coupon or promo code?",
+    "variations": [
+      "Where do I enter my promo code at checkout?",
+      "How to redeem discount code?",
+      "Coupon voucher box location"
+    ],
+    "answer": "Enter your promo code into the 'Gift Card or Promo Code' box during checkout and click 'Apply' before submitting payment."
+  },
+  {
+    "id": 35,
+    "category": "Coupons and Discounts",
+    "question": "Why is my discount code not working?",
+    "variations": [
+      "Why isn't my coupon working?",
+      "My promo code doesn't apply.",
+      "Promo code error invalid code",
+      "Discount coupon code expired",
+      "Why won't my discount code apply?"
+    ],
+    "answer": "Discount codes may fail if they are expired, require a minimum spend threshold, or exclude specific sale/clearance items. Check the terms of your coupon."
+  },
+  {
+    "id": 36,
+    "category": "Coupons and Discounts",
+    "question": "Can I use multiple coupon codes on one order?",
+    "variations": [
+      "Can I stack discount codes?",
+      "Combine two promo codes",
+      "Multiple coupon usage checkout"
+    ],
+    "answer": "Only one promotional code can be applied per order. Discount codes cannot be stacked."
+  },
+  {
+    "id": 37,
+    "category": "Coupons and Discounts",
+    "question": "Do you offer student, military, or senior discounts?",
+    "variations": [
+      "Do you have a student discount?",
+      "Military discount eligibility",
+      "Senior citizen special offer"
+    ],
+    "answer": "Yes! We offer a 10% discount for students, military personnel, and healthcare workers verified through ID.me at checkout."
+  },
+  {
+    "id": 38,
+    "category": "Account and Login",
+    "question": "How do I create a new user account?",
+    "variations": [
+      "How to sign up for an account?",
+      "Create customer profile website",
+      "Register account on store"
+    ],
+    "answer": "Click the 'Account' icon in the top right corner of our website, select 'Create Account', and enter your name, email, and password."
+  },
+  {
+    "id": 39,
+    "category": "Account and Login",
+    "question": "What should I do if I forgot my login password?",
+    "variations": [
+      "I forgot my password",
+      "How to reset account password?",
+      "Lost login password unlock account"
+    ],
+    "answer": "Click 'Forgot Password?' on the sign-in page, enter your registered email address, and follow the link sent to your inbox to reset your password."
+  },
+  {
+    "id": 40,
+    "category": "Account and Login",
+    "question": "How do I change my account email address or profile details?",
+    "variations": [
+      "Update my email address in profile",
+      "Edit default shipping address",
+      "Change account settings"
+    ],
+    "answer": "Log into your account, navigate to 'Account Settings', and select 'Edit Profile' or 'Saved Addresses' to update your information."
+  },
+  {
+    "id": 41,
+    "category": "Account and Login",
+    "question": "Can I checkout as a guest without an account?",
+    "variations": [
+      "Do I need an account to buy something?",
+      "Order without registering account",
+      "Guest checkout option"
+    ],
+    "answer": "Yes, you can check out as a guest without creating an account. Simply enter your email and shipping details at checkout."
+  },
+  {
+    "id": 42,
+    "category": "Product Information",
+    "question": "How do I choose the right size for clothing?",
+    "variations": [
+      "Clothing size guide measurements",
+      "How do your sizes fit?",
+      "Is this apparel true to size?"
+    ],
+    "answer": "Check our detailed Size Guide linked on every product page. It includes exact measurements in inches and centimeters along with model fit recommendations."
+  },
+  {
+    "id": 43,
+    "category": "Product Information",
+    "question": "Are your product colors accurate on screen?",
+    "variations": [
+      "Do colors look the same in person?",
+      "Product image color discrepancy",
+      "Display monitor color accuracy"
+    ],
+    "answer": "We capture product photos under professional lighting to represent true colors as accurately as possible, though slight variations may occur across monitor displays."
+  },
+  {
+    "id": 44,
+    "category": "Product Information",
+    "question": "How should I clean and care for my products?",
+    "variations": [
+      "Washing instructions for clothes",
+      "Product care guide maintenance",
+      "How to wash fabric or leather"
+    ],
+    "answer": "Specific care instructions are printed on the product tag and listed under the 'Care & Materials' tab on the product description page."
+  },
+  {
+    "id": 45,
+    "category": "Product Information",
+    "question": "Are your products eco-friendly or sustainably sourced?",
+    "variations": [
+      "Sustainable materials eco friendly",
+      "Are items recycled or organic?",
+      "Environmental impact of products"
+    ],
+    "answer": "We prioritize eco-friendly manufacturing, using 100% organic cotton and recycled packaging materials across our primary product lines."
+  },
+  {
+    "id": 46,
+    "category": "Product Availability",
+    "question": "What should I do if an item is out of stock?",
+    "variations": [
+      "When will this product be restocked?",
+      "Item is sold out can I order?",
+      "Restock notification request"
+    ],
+    "answer": "Click the 'Notify Me When Available' button on the product page and enter your email to receive an instant alert when inventory is restocked."
+  },
+  {
+    "id": 47,
+    "category": "Product Availability",
+    "question": "Can I pre-order an upcoming product?",
+    "variations": [
+      "How to pre order new releases?",
+      "Reserve out of stock item before launch",
+      "Preorder policy delivery date"
+    ],
+    "answer": "Items eligible for pre-order will display a 'Pre-Order' button on the product page along with the estimated ship date. Pre-orders are charged at checkout."
+  },
+  {
+    "id": 48,
+    "category": "Product Availability",
+    "question": "Do you hold items in my shopping cart?",
+    "variations": [
+      "Does my cart reserve items while shopping?",
+      "Can items in cart sell out?",
+      "Cart item reservation time"
+    ],
+    "answer": "Adding an item to your cart does not reserve it. Items are reserved only after payment is completed at checkout."
+  },
+  {
+    "id": 49,
+    "category": "Invoices and Receipts",
+    "question": "Where can I download my order invoice or receipt?",
+    "variations": [
+      "I need a tax invoice for my purchase",
+      "Download PDF receipt for order",
+      "Print order purchase invoice"
+    ],
+    "answer": "You can view and download PDF invoices anytime by logging into your account, selecting 'My Orders', and clicking 'Download Invoice'."
+  },
+  {
+    "id": 50,
+    "category": "Invoices and Receipts",
+    "question": "Can I request a commercial tax invoice with my business VAT/EIN?",
+    "variations": [
+      "Business invoice with company VAT tax ID",
+      "Add VAT number to invoice",
+      "Corporate billing tax invoice"
+    ],
+    "answer": "Yes, during checkout under 'Billing Information', check the box 'Require Tax/Business Invoice' and enter your registered company name and Tax ID/VAT number."
+  },
+  {
+    "id": 51,
+    "category": "Invoices and Receipts",
+    "question": "Why haven't I received an email confirmation receipt?",
+    "variations": [
+      "Didn't get order confirmation email",
+      "No receipt sent to my inbox",
+      "Missing purchase confirmation email"
+    ],
+    "answer": "Confirmation emails are sent within 5 minutes of order placement. Please check your Spam/Promotions folder or verify that your email address was entered correctly."
+  },
+  {
+    "id": 52,
+    "category": "Customer Support",
+    "question": "How can I contact customer support?",
+    "variations": [
+      "Customer service phone number or live chat",
+      "How to email support team?",
+      "Talk to a representative"
+    ],
+    "answer": "Our customer support team is available 24/7 via Live Chat on our website or by emailing support@example.com."
+  },
+  {
+    "id": 53,
+    "category": "Customer Support",
+    "question": "What are your customer support operating hours?",
+    "variations": [
+      "When is customer service open?",
+      "Support team business hours",
+      "Is live chat available on weekends?"
+    ],
+    "answer": "Our live chat and email support operate 24 hours a day, 7 days a week, 365 days a year."
+  },
+  {
+    "id": 54,
+    "category": "Customer Support",
+    "question": "How long does customer support take to respond to emails?",
+    "variations": [
+      "Email support response time",
+      "How fast does customer service reply?",
+      "Waiting for support email answer"
+    ],
+    "answer": "We aim to respond to all customer emails within 2 to 4 business hours."
+  },
+  {
+    "id": 55,
+    "category": "Technical Issues",
+    "question": "Why is the website slow or failing to load?",
+    "variations": [
+      "Website crashing or loading error",
+      "Page won't load on my browser",
+      "Troubleshoot site loading issues"
+    ],
+    "answer": "Try clearing your browser cache and cookies, disabling ad-blocker extensions, or switching to an updated Chrome, Safari, or Firefox browser."
+  },
+  {
+    "id": 56,
+    "category": "Technical Issues",
+    "question": "What should I do if checkout hangs or shows an error?",
+    "variations": [
+      "Checkout page frozen spinning wheel",
+      "Error code during payment processing",
+      "Cannot complete checkout screen"
+    ],
+    "answer": "Ensure your internet connection is stable, refresh the page, and re-verify your billing zip code. If the issue persists, try placing the order in an Incognito window."
+  },
+  {
+    "id": 57,
+    "category": "Technical Issues",
+    "question": "Why am I not receiving password reset emails?",
+    "variations": [
+      "Password reset link not arriving",
+      "Didn't get password email",
+      "Reset password email missing"
+    ],
+    "answer": "Check your Junk/Spam folder. If you still don't see it, ensure you are entering the exact email address used during account registration."
+  },
+  {
+    "id": 58,
+    "category": "Store Policies",
+    "question": "Do you offer price matching if an item goes on sale?",
+    "variations": [
+      "Will you match a lower price from another store?",
+      "Price adjustment request after purchase",
+      "Price match policy"
+    ],
+    "answer": "If an item you purchased goes on sale on our website within 7 days of your order, contact us for a one-time price adjustment store credit!"
+  },
+  {
+    "id": 59,
+    "category": "Store Policies",
+    "question": "What items are non-returnable or final sale?",
+    "variations": [
+      "Which items cannot be returned?",
+      "Are gift cards refundable?",
+      "Final sale clearance items return policy"
+    ],
+    "answer": "Final sale clearance items, custom-embroidered apparel, hygienic items, and digital gift cards are non-refundable and cannot be returned."
+  },
+  {
+    "id": 60,
+    "category": "Store Policies",
+    "question": "What is your privacy policy regarding my personal data?",
+    "variations": [
+      "How do you protect my personal info?",
+      "Do you sell my data?",
+      "Privacy policy data protection"
+    ],
+    "answer": "We respect your privacy. We never sell or share your personal data with third parties except as necessary to fulfill your order and process payments."
+  },
+  {
+    "id": 61,
+    "category": "General Questions",
+    "question": "Do you have physical retail store locations?",
+    "variations": [
+      "Where are your physical store locations?",
+      "Can I shop in person at a store?",
+      "Do you have physical shops near me?"
+    ],
+    "answer": "We are an online-only retailer! Operating online allows us to offer direct-to-consumer pricing, a broader product selection, and free shipping over $50."
+  },
+  {
+    "id": 62,
+    "category": "General Questions",
+    "question": "Do you offer gift cards or digital vouchers?",
+    "variations": [
+      "Can I buy a gift card?",
+      "Where to purchase electronic gift voucher?",
+      "Do you sell digital gift cards?"
+    ],
+    "answer": "Yes, digital gift cards are available in amounts from $25 to $500 on our website and are delivered instantly to the recipient's email."
+  },
+  {
+    "id": 63,
+    "category": "General Questions",
+    "question": "Do you offer wholesale or bulk purchasing discounts?",
+    "variations": [
+      "Can I buy products in bulk for my company?",
+      "Wholesale pricing application",
+      "Bulk order discount inquiry"
+    ],
+    "answer": "Yes! We offer bulk discounts for corporate orders over 50 units. Contact wholesale@example.com for a customized quote."
+  },
+  {
+    "id": 64,
+    "category": "General Questions",
+    "question": "Where are your products manufactured?",
+    "variations": [
+      "Where is your merchandise made?",
+      "Country of origin for products",
+      "Product manufacturing locations"
+    ],
+    "answer": "Our products are ethically designed in the US and manufactured across certified partner facilities in Vietnam, India, and Portugal under strict labor safety standards."
+  }
+]

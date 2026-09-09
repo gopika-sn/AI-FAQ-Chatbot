@@ -1,0 +1,10 @@
+streamlit
+spacy
+sentence-transformers
+scikit-learn
+numpy
+python-dotenv
+google-genai
+pytest
+matplotlib
+pillow
